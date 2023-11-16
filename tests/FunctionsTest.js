@@ -756,64 +756,64 @@ describe('Change the color of chocolates - changeChocolateColorAllOfxCount', fun
 
 // describe("Challenge 1: Fresh Pickings - ", function(){
 
-//   it("Defines removeChocolateOfColor()", function () {
-//     expect(typeof removeChocolateOfColor).toBe("function");
-//   });
+  it("Defines removeChocolateOfColor()", function () {
+    expect(typeof removeChocolateOfColor).toBe("function");
+  });
 
-//   it("Removes one chocolate of the given color from the top", function () {
-//     var candies = [
-//       "green",
-//       "blue",
-//       "blue",
-//       "red",
-//       "red",
-//       "silver",
-//       "purple",
-//       "silver"
-//     ];
+  it("Removes one chocolate of the given color from the top", function () {
+    var candies = [
+      "green",
+      "blue",
+      "blue",
+      "red",
+      "red",
+      "silver",
+      "purple",
+      "silver"
+    ];
 
-//     givenColor = "silver";
+    givenColor = "silver";
 
-//     const expectedResult = [
-//       "green",
-//       "blue",
-//       "blue",
-//       "red",
-//       "red",
-//       "purple",
-//       "silver"
-//     ]
+    const expectedResult = [
+      "green",
+      "blue",
+      "blue",
+      "red",
+      "red",
+      "purple",
+      "silver"
+    ]
 
-//     let actualResult = removeChocolateOfColor(candies, givenColor);
+    let actualResult = removeChocolateOfColor(candies, givenColor);
 
-//     expect(actualResult).toEqual(expectedResult);
+    expect(actualResult).toEqual(expectedResult);
 
-// })});
+});
 
-// describe("Challenge 2: Rainbow and sunshine! - ", function(){
+describe("Challenge 2: Rainbow and sunshine! - ", function(){
 
-//   it("Defines dispenseRainbowChocolates()", function () {
-//     expect(typeof dispenseRainbowChocolates).toBe("function");
-//   });
+  it("Defines dispenseRainbowChocolates()", function () {
+    expect(typeof dispenseRainbowChocolates).toBe("function");
+  });
 
-//   it("", function () {
-//     var candies = [
-//       "green",
-//       "blue",
-//       "blue",
-//       "blue",
-//       "red",
-//       "red",
-//       "silver",
-//       "purple",
-//       "silver",
-//       "silver",
-//     ];
+  it("", function () {
+    var candies = [
+      "green",
+      "blue",
+      "blue",
+      "blue",
+      "red",
+      "red",
+      "silver",
+      "purple",
+      "silver",
+      "silver",
+    ];
 
-//     const expectedResult = 2; // blue and silver can make up a rainbow chocolate
+    const expectedResult = 2; // blue and silver can make up a rainbow chocolate
 
-//     let actualResult = dispenseRainbowChocolates(candies);
+    let actualResult = dispenseRainbowChocolates(candies);
 
-//     expect(actualResult).toEqual(expectedResult);
+    expect(actualResult).toEqual(expectedResult);
 
-// })});
+})});
